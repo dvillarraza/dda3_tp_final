@@ -7,10 +7,10 @@ Esta aplicación fue creada para el trabajo final de la asignatura Desarrollo de
 ## Tabla de contenido
 * [Descripción del Sistema](#descripción-del-sistema)
 * [Descripción del Hardware](#descripcion-del-hardware)
-* [Arquitectura del Sistema](#arquitectura-del-sistema)
+* [Instalar Dependencias](#instalar-dependencias)
 
 ## 
-## Descripción del Sistema 📋
+## Descripción del Sistema📋
 El sistema consta de tres partes las cuales se decriben a continuación:
 
  * Servidor MQTT
@@ -26,7 +26,7 @@ El sistema consta de tres partes las cuales se decriben a continuación:
     Esta aplicacion es una SPA (aplicacion de una sola pagina) donde se utiliza Vue.js para el desarrollo del front-end y el back-end es una Api desarrollada con Laravel
 
 ## 
-## Descripción del Hardware 📋
+## Descripción del Hardware📋
 El hardware utilizando, el cual se muestra en la figura 1 consta de: 
 
  - Raspberry PI 4, donde corre el broker mqtt y las aplicaciones.
@@ -36,14 +36,11 @@ El hardware utilizando, el cual se muestra en la figura 1 consta de:
 
  ![arquitectura](Doc/DDA_Hardware.png)
 
-
-
 ## 
-## Arquitectura del Sistema 📋
-Los componentes del sistema son:
- * Servidor MQTT
- * Aplicación on-line para el almacenamiento de los datos
- * Aplciación Web
-
+## Instalar dependencias🔧
+Para desplegar la aplicacion se necesita previamente tener instalado en la Raspberry:
+* Servidor Mosquitto (Pasos de la instalacion en [docmentacion oficial](https://mosquitto.org/download/)).
+* Node-Red (Pasos de la instalacion en [docmentacion oficial](https://nodered.org/docs/getting-started/local).
+* Larvel (Pasos de la instalacion en [docmentacion oficial](https://laravel.com/docs/8.x).
 
 
