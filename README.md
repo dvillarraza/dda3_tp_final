@@ -10,7 +10,7 @@ Esta aplicación fue creada para el trabajo final de la asignatura Desarrollo de
 * [Arquitectura del Sistema](#arquitectura-del-sistema)
 
 ## 
-## Descripción del sistema 📋
+## Descripción del Sistema 📋
 El sistema consta de tres partes las cuales se decriben a continuación:
 
  * Servidor MQTT
@@ -26,11 +26,11 @@ El sistema consta de tres partes las cuales se decriben a continuación:
     Esta aplicacion es una SPA (aplicacion de una sola pagina) donde se utiliza Vue.js para el desarrollo del front-end y el back-end es una Api desarrollada con Laravel
 
 ## 
-## Descrpicón del Hardware 📋
+## Descripción del Hardware 📋
 El hardware utilizando, el cual se muestra en la figura 1 consta de: 
 
  - Raspberry PI 4, donde corre el broker mqtt y las aplicaciones.
- 
+
  - Dos ESP32 los cuales tienen conectado un sensor de temperatura y humedad DHT.
 
 
