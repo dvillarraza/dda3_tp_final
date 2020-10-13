@@ -6,15 +6,15 @@ Se trata de una aplicación que integra distintos componentes para el almacenami
 
 ## 
 ## Tabla de contenido
-* [Descripción del Sistema](#descripción-del-sistema)
-* [Descripción del Hardware](#descripción-del-hardware)
-* [Instalar Dependencias](#instalar-dependencias)
+* [Descripción del sistema](#descripción-del-sistema)
+* [Descripción del hardware](#descripción-del-hardware)
+* [Instalar dependencias](#instalar-dependencias)
 * [Correr la aplicación](#correr-la-aplicación)
 * [Contribuir](#contribuir)
 * [Licencia](#licencia)
 
 ## 
-## Descripción del Sistema📋
+## Descripción del sistema📋
 El sistema consta de tres partes las cuales se decriben a continuación:
 
  * Servidor MQTT
@@ -30,7 +30,7 @@ El sistema consta de tres partes las cuales se decriben a continuación:
     Esta aplicacion es una SPA (aplicacion de una sola pagina) donde se utiliza Vue.js para el desarrollo del front-end y el back-end es una Api desarrollada con Laravel
 
 ## 
-## Descripción del Hardware🛠️
+## Descripción del hardware🛠️
 El hardware utilizando, el cual se muestra en la figura 1 consta de: 
 
  - Raspberry PI 4, donde corre el broker mqtt y las aplicaciones.
@@ -49,7 +49,7 @@ Para desplegar la aplicacion se necesita previamente tener instalado en la Raspb
 * Sqlite (Pasos de la instalacion en [docmentacion oficial](https://www.sqlite.org/download.html)).
 
 ## 
-## Correr la aplicación 📦
+## Correr la aplicación📦
 Primero se debe clonar el repositorio ejecutando:
 ```sh
 git clone https://github.com/dvillarraza/dda3_tp_final.git 
@@ -64,7 +64,7 @@ http://localhost:1880/ui
 
  ![node_red](Doc/DDA_Node_Red_ui.png)
 
-Luego en la raiz del proyecto se encuenta la carpeta App_web en donde se encuentra el proyecto de la SPA para desplegar la aplicacion Web (ver figura 3). 
+Luego en la raiz del proyecto se encuenta la carpeta App_web en donde se encuentra el proyecto de la SPA para desplegar la aplicacion Web. 
 Primero se deben instalar todas las dependencias ejecuando:
 ```sh
 npm install
@@ -90,13 +90,13 @@ Finalmente para desplegar la aplicacion:
 ```sh
 php artisan server
 ```
-Si no se produjo ningun error, desde un web browser se puede desplegar la aplicacion (figura 3) ingesando a:
+Si no se produjo ningun error, desde un web browser se puede desplegar la aplicacion (figura 3, 4 y 5) ingesando a:
 
 http://localhost:8000 
 
 Para finalizar la ejecucion de aplicación, presionar Cltr-C en la terminal donde se ejecuto php artisan serve
 
- ![app_web](Doc/DDA_App_web.png)
+ ![app_web](Doc/DDA_Hardware_App_Web_3a5.png)
 
 ## 
 ## Contribuir🎁
