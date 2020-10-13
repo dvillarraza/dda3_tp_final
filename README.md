@@ -6,7 +6,7 @@ Esta aplicación fue creada para el trabajo final de la asignatura Desarrollo de
 ## 
 ## Tabla de contenido
 * [Descripción del Sistema](#descripción-del-sistema)
-* [Descripción del Hardware](#descripcion-del-hardware)
+* [Descripción del Hardware](#descripción-del-hardware)
 * [Instalar Dependencias](#instalar-dependencias)
 
 ## 
@@ -40,7 +40,8 @@ El hardware utilizando, el cual se muestra en la figura 1 consta de:
 ## Instalar dependencias🔧
 Para desplegar la aplicacion se necesita previamente tener instalado en la Raspberry:
 * Servidor Mosquitto (Pasos de la instalacion en [docmentacion oficial](https://mosquitto.org/download/)).
-* Node-Red (Pasos de la instalacion en [docmentacion oficial](https://nodered.org/docs/getting-started/local).
-* Larvel (Pasos de la instalacion en [docmentacion oficial](https://laravel.com/docs/8.x).
+* Node-Red (Pasos de la instalacion en [docmentacion oficial](https://nodered.org/docs/getting-started/local)).
+* Larvel (Pasos de la instalacion en [docmentacion oficial](https://laravel.com/docs/8.x)).
+* Sqlite (Pasos de la instalacion en [docmentacion oficial](https://www.sqlite.org/download.html)).
 
 
