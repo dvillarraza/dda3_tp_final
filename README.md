@@ -45,7 +45,7 @@ El hardware utilizando, el cual se muestra en la figura 1 consta de:
 Para desplegar la aplicacion se necesita previamente tener instalado en la Raspberry:
 * Servidor Mosquitto (Pasos de la instalacion en [docmentacion oficial](https://mosquitto.org/download/)).
 * Node-Red (Pasos de la instalacion en [docmentacion oficial](https://nodered.org/docs/getting-started/local)).
-* Larvel (Pasos de la instalacion en [docmentacion oficial](https://laravel.com/docs/8.x)).
+* Laravel (Pasos de la instalacion en [docmentacion oficial](https://laravel.com/docs/8.x)).
 * Sqlite (Pasos de la instalacion en [docmentacion oficial](https://www.sqlite.org/download.html)).
 
 ## 
